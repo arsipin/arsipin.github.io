@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nama Proyek Dua — Detail Proyek</title>
+  <meta name="description" content="Studi kasus proyek dua oleh Muhammad Arifin." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/responsive.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="../index.html" class="nav-brand">arifin<span class="dot">.</span>dev</a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Beranda</a></li>
+        <li><a href="../about.html">Tentang</a></li>
+        <li><a href="../portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="../experience.html">Pengalaman</a></li>
+        <li><a href="../contact.html">Kontak</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <span class="breadcrumb"><a href="../index.html">Beranda</a> / <a href="../portfolio.html">Portfolio</a> / Proyek Dua</span>
+        <h1>Nama Proyek Dua</h1>
+        <p style="margin-top: var(--space-2);">Ganti judul dan ringkasan singkat satu kalimat tentang proyek ini.</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container" style="max-width: 880px;">
+
+        <div class="project-thumb reveal" style="aspect-ratio: 16/9; border-radius: var(--radius-md); margin-bottom: var(--space-4); border: 1px solid var(--color-border);">
+          <img src="../assets/images/project2.jpg.svg" alt="Tampilan utama proyek dua" />
+        </div>
+
+        <div class="stats-strip reveal" style="margin-bottom: var(--space-5);">
+          <div class="stat-block">
+            <span class="stat-value" style="font-size: var(--fs-md);">Peran</span>
+            <span class="stat-label">Database Administrator</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value" style="font-size: var(--fs-md);">Durasi</span>
+            <span class="stat-label">Isi durasi pengerjaan</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value" style="font-size: var(--fs-md);">Tools</span>
+            <span class="stat-label">MySQL, ERD</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-value" style="font-size: var(--fs-md);">Tahun</span>
+            <span class="stat-label">2026</span>
+          </div>
+        </div>
+
+        <article class="reveal">
+          <h2>Latar Belakang</h2>
+          <p style="margin: var(--space-2) 0 var(--space-4);">
+            Jelaskan konteks data yang ditangani: jenis sistem, volume data, dan masalah pengelolaan data
+            yang ingin diselesaikan. Ganti paragraf ini dengan cerita proyek aslimu.
+          </p>
+
+          <h2>Proses</h2>
+          <p style="margin: var(--space-2) 0 var(--space-4);">
+            Jelaskan tahapan kerja: analisis kebutuhan data, perancangan ERD, normalisasi, hingga implementasi
+            query. Sertakan keputusan teknis penting yang kamu ambil dan alasannya.
+          </p>
+
+          <h2>Hasil</h2>
+          <p style="margin: var(--space-2) 0 var(--space-4);">
+            Jelaskan hasil akhir dan dampaknya — misalnya peningkatan performa query, integritas data yang
+            lebih terjaga, atau pembelajaran yang didapat dari proyek ini.
+          </p>
+        </article>
+
+        <div class="reveal" style="margin-top: var(--space-5); display:flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-2);">
+          <a href="../portfolio.html" class="btn btn-outline">&larr; Kembali ke Portfolio</a>
+          <a href="project-detail3.html" class="btn btn-primary">Proyek Selanjutnya &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">arifin.dev</div>
+          <p class="footer-tagline">UI/UX Design × Database Administration. Dibangun dengan HTML, CSS, dan JavaScript murni.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Navigasi</h4>
+            <a href="../about.html">Tentang Saya</a>
+            <a href="../portfolio.html">Portfolio</a>
+            <a href="../experience.html">Pengalaman</a>
+            <a href="../contact.html">Kontak</a>
+          </div>
+          <div class="footer-col">
+            <h4>Terhubung</h4>
+            <a href="https://instagram.com/arsip.in_9" target="_blank" rel="noopener">Instagram</a>
+            <a href="../assets/documents/CV.pdf" download>Unduh CV</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="current-year"></span> Muhammad Arifin.</span>
+        <span>Dibuat dengan HTML, CSS &amp; JavaScript.</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Kembali ke atas">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Muhammad Arifin</title>
+  <meta name="description" content="Kumpulan proyek UI/UX Design dan Database Administration oleh Muhammad Arifin." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-brand">Muhammad<span class=span>Arifin</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="experience.html">Pengalaman</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Ganti tema gelap/terang">
+  <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+  <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+</button>
+<button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div class="container">
+        <span class="breadcrumb"><a href="index.html">Beranda</a> / Portfolio</span>
+        <h1>Portfolio</h1>
+        <p style="max-width: 60ch; margin-top: var(--space-2);">Kumpulan proyek di bidang UI/UX Design dan Database Administration. Konten di bawah ini masih placeholder — ganti judul, deskripsi, gambar, dan tag sesuai proyek aslimu.</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <div class="project-grid">
+
+          <article class="project-card reveal">
+            <div class="project-thumb">
+              <span class="project-index">01</span>
+              <img src="assets/images/project1.jpg.svg" alt="Thumbnail proyek 1" />
+            </div>
+            <div class="project-body">
+              <h3>Nama Proyek Satu</h3>
+              <p>Deskripsi singkat: konteks masalah, peran kamu, dan hasil yang dicapai dalam proyek ini.</p>
+              <div class="project-tags">
+                <span class="tag">Figma</span><span class="tag">UI Design</span><span class="tag">Prototyping</span>
+              </div>
+              <a href="pages/project-detail1.html" class="project-link">
+                Lihat detail
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb">
+              <span class="project-index">02</span>
+              <img src="assets/images/project2.jpg.svg" alt="Thumbnail proyek 2" />
+            </div>
+            <div class="project-body">
+              <h3>Nama Proyek Dua</h3>
+              <p>Deskripsi singkat: konteks masalah, peran kamu, dan hasil yang dicapai dalam proyek ini.</p>
+              <div class="project-tags">
+                <span class="tag">MySQL</span><span class="tag">ERD</span><span class="tag">Normalisasi</span>
+              </div>
+              <a href="pages/project-detail2.html" class="project-link">
+                Lihat detail
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb">
+              <span class="project-index">03</span>
+              <img src="assets/images/project3.jpg.svg" alt="Thumbnail proyek 3" />
+            </div>
+            <div class="project-body">
+              <h3>Nama Proyek Tiga</h3>
+              <p>Deskripsi singkat: konteks masalah, peran kamu, dan hasil yang dicapai dalam proyek ini.</p>
+              <div class="project-tags">
+                <span class="tag">Mobile App</span><span class="tag">UX Research</span>
+              </div>
+              <a href="pages/project-detail3.html" class="project-link">
+                Lihat detail
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Tambah project-card baru di sini dengan pola yang sama -->
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">Muhammad Arifin</div>
+          <p class="footer-tagline">UI/UX Design × Database Administration. Dibangun dengan HTML, CSS, dan JavaScript murni.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Navigasi</h4>
+            <a href="about.html">Tentang Saya</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="experience.html">Pengalaman</a>
+            <a href="contact.html">Kontak</a>
+          </div>
+          <div class="footer-col">
+            <h4>Terhubung</h4>
+            <a href="https://instagram.com/arsip.in_9" target="_blank" rel="noopener">Instagram</a>
+            <a href="assets/documents/CV.pdf" download>Unduh CV</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="current-year"></span> Muhammad Arifin.</span>
+        <span>Dibuat dengan HTML, CSS &amp; JavaScript.</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Kembali ke atas">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375">
+<rect width="600" height="375" fill="#F4F9FF"/>
+<rect x="0" y="0" width="600" height="375" fill="none" stroke="#E1EDF9" stroke-width="2"/>
+<line x1="0" y1="0" x2="600" y2="375" stroke="#E1EDF9" stroke-width="1"/>
+<line x1="600" y1="0" x2="0" y2="375" stroke="#E1EDF9" stroke-width="1"/>
+<text x="300" y="195" font-family="monospace" font-size="18" fill="#5BA3D9" text-anchor="middle">project 2 placeholder</text>
+</svg>
