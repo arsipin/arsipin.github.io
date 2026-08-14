@@ -63,7 +63,7 @@ Untuk menambah proyek baru, salin satu blok `<article class="project-card">...</
 ### 4. Data Pribadi
 Data yang sudah dipakai di seluruh halaman:
 - Nama: Muhammad Arifin
-- IPK: 3.51
+- IPK: 3.60
 - Semester: 6
 - Program Studi: Sistem Informasi, Universitas Bina Sarana Informatika
 - Instagram: [@arsip.in_9](https://instagram.com/arsip.in_9)
